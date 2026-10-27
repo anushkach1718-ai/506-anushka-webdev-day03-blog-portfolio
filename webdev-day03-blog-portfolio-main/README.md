@@ -1,52 +1,152 @@
 # Day 3 — Personal Blog & Portfolio
 
-<img width="1896" height="871" alt="image" src="https://github.com/user-attachments/assets/329de9d0-0d72-4d6e-98e2-980ba610114a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23f220aa-549d-4a5a-9e97-60c186fedf7a" />
 
-A responsive personal blog and portfolio built with semantic HTML and CSS as part of the **Links, Images, Lists, Semantic HTML** assignment.
+# Personal Blog & Portfolio — Anushka Chaturvedi
 
-## Day 3 work completed
+A responsive personal blog and portfolio website built using **HTML5 and CSS3** as part of the Day 3 Web Development assignment.
 
-- Created linked `index.html`, `about.html`, and `blog.html` pages with a shared navigation bar.
-- Added a link that opens an external site in a new tab using `target="_blank"` and `rel="noopener noreferrer"`.
-- Added local illustrations in `images/` and referenced them with relative paths and meaningful `alt` text.
-- Used lists for navigation, the learning plan, project tags, and blog topics. The learning plan is an ordered list.
-- Organized page content with semantic elements such as `header`, `nav`, `main`, `section`, `article`, `aside`, and `footer`.
-- Added a blog page with journal entries and a student/course section on the About page.
-- Styled the pages for desktop and mobile screen sizes.
+## 👩‍💻 About Me
 
-## Project files
+- **Name:** Anushka Chaturvedi
+- **Course:** B.Tech in Computer Science and Engineering (CSE)
+- **University:** Invertis University
+- **Assignment:** Day 3 — Personal Blog & Portfolio
+- **Technologies:** HTML5, CSS3, SVG
 
-- `index.html` — home page, selected projects, and recent journal entries
-- `about.html` — introduction, course overview, and learning list
-- `blog.html` — blog/journal entries
-- `styles.css` — shared responsive styles
-- `images/` — local SVG illustrations
+## 🎯 Assignment Objectives
 
-## Student guide: create your individual repository
+- Create multiple interconnected HTML pages.
+- Use semantic HTML elements to structure content.
+- Add internal and external hyperlinks.
+- Display local images using relative paths.
+- Use ordered and unordered lists.
+- Apply responsive CSS styling for desktop and mobile devices.
+- Organize project files using a clean folder structure.
 
-Each student should make their own copy of this project and use a repository name in this format:
+## ✨ Features
+
+- Responsive personal portfolio design.
+- Home page with an introduction and project highlights.
+- About page with education, skills, and interests.
+- Blog page with web development journal entries.
+- Navigation links between all pages.
+- Local SVG illustrations with meaningful `alt` text.
+- Semantic HTML elements for better structure and accessibility.
+- Responsive layouts using CSS media queries.
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive layout |
+| SVG | Illustrations |
+| Visual Studio Code | Code editor |
+| Git & GitHub | Version control and submission |
+
+## 📁 Project Structure
 
 ```text
-rollno-firstname-webdev-day03-blog-portfolio
+506-anushka-webdev-day03-blog-portfolio/
+├── index.html
+├── about.html
+├── blog.html
+├── styles.css
+├── README.md
+└── images/
+    ├── developer.svg
+    ├── web-project.svg
+    └── learning.svg
 ```
 
-For example, a student with roll number `24BT001` and first name `Asha` would use:
+## 📄 Pages Overview
 
-```text
-24BT001-asha-webdev-day03-blog-portfolio
+### 1. Home Page — `index.html`
+
+- Introduces my portfolio.
+- Highlights projects and learning progress.
+- Displays recent journal entries.
+- Provides navigation to other pages.
+
+### 2. About Page — `about.html`
+
+- Presents my introduction and educational background.
+- Lists technical skills and interests.
+- Includes an ordered learning plan.
+
+### 3. Blog Page — `blog.html`
+
+- Contains journal entries about web development.
+- Uses semantic article elements.
+- Includes links to relevant topics.
+
+### 4. Stylesheet — `styles.css`
+
+- Defines colors, typography, spacing, and layout.
+- Styles navigation, cards, and images.
+- Uses media queries for responsive design.
+
+## 🖼️ Images and Relative Paths
+
+All illustrations are stored in the `images/` directory and referenced using relative paths.
+
+Example:
+
+```html
+<img src="images/developer.svg" alt="Illustration of a web developer">
 ```
 
-Use your own roll number and first name. Keep the name lowercase and use hyphens between parts. Do not include the angle brackets.
+## 📱 Responsive Design
 
-### Steps
+The website adapts to desktop computers, tablets, and mobile devices using flexible layouts and CSS media queries.
 
-1. Create a new, individual repository on GitHub with the name above. Do not push your work into another student's repository.
-2. Copy the project files into your own local project folder. Keep `index.html`, `about.html`, `blog.html`, `styles.css`, and the `images/` folder together so the relative links and image paths continue to work.
-3. Personalize the pages: replace the sample name, course details, projects, writing, dates, email, and social profile links with your own information.
-4. Open `index.html` in a browser. Check that the Home, About, and Blog links work, images appear, and each page can navigate back to the others.
-5. Check that each image has useful `alt` text and that semantic HTML and the lists remain in place. Confirm the pages are usable at a narrow/mobile width too.
-6. Save your work in Git and push it to your individual GitHub repository. Share the repository link with your instructor as instructed in class.
+## 🚀 How to Run the Project
 
-### Run locally
+1. Clone or download the repository.
+2. Open the project folder in Visual Studio Code.
+3. Check that all HTML files, `styles.css`, and the `images/` folder are present.
+4. Open `index.html` in your browser.
+5. Test the navigation links and images.
 
-Open `index.html` in a browser. The illustrations are local SVG files in `images/`. Google Fonts are an optional online enhancement; system-font fallbacks are included.
+**Optional:** Use the Live Server extension in VS Code to preview the website.
+
+## 📚 Concepts Practiced
+
+- Semantic HTML elements.
+- Internal and external hyperlinks.
+- Relative paths for images.
+- Image accessibility using `alt` text.
+- Ordered and unordered lists.
+- Multi-page website navigation.
+- Responsive CSS design.
+- Git and GitHub basics.
+
+## 🔗 Project Links
+
+- **GitHub Repository:** https://github.com/anushkach1718-ai/506-anushka-webdev-day03-blog-portfolio
+- **Live Website:** Add your GitHub Pages URL here, if published.
+
+## ✅ Assignment Checklist
+
+- [x] Created Home, About, and Blog pages.
+- [x] Added navigation links between pages.
+- [x] Used semantic HTML elements.
+- [x] Added ordered and unordered lists.
+- [x] Included local SVG illustrations.
+- [x] Applied responsive CSS styling.
+- [ ] Tested all pages and links.
+- [x] Uploaded the project to GitHub.
+- [x] Submitted the repository link.
+
+## 👩‍🎓 Author
+
+**Anushka Chaturvedi**  
+B.Tech Computer Science and Engineering  
+Invertis University
+
+---
+
+*Day 3 Web Development Assignment — Personal Blog & Portfolio*
+
+
