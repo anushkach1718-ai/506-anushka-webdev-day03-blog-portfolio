@@ -90,12 +90,12 @@ A responsive personal blog and portfolio website built using **HTML5 and CSS3** 
 ## 🖼️ Images and Relative Paths
 
 All illustrations are stored in the `images/` directory and referenced using relative paths.
+<img
+  src="images/developer.svg"
+  alt="Illustration of a web developer"
+>
 
-Example:
 
-```html
-<img src="images/developer.svg" alt="Illustration of a web developer">
-```
 
 ## 📱 Responsive Design
 
