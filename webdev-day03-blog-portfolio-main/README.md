@@ -125,7 +125,6 @@ The website adapts to desktop computers, tablets, and mobile devices using flexi
 ## 🔗 Project Links
 
 - **GitHub Repository:** https://github.com/anushkach1718-ai/506-anushka-webdev-day03-blog-portfolio
-- **Live Website:** Add your GitHub Pages URL here, if published.
 
 ## ✅ Assignment Checklist
 
